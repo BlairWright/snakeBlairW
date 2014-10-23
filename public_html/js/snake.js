@@ -37,6 +37,8 @@ function gameInitialize() {
     
     canvas.width = screenWidth;
     canvas.height =screenHeight;
+    
+    document.addEventListener("keydown", keyboardHandler);
     }
     
 function gameLoop() {
